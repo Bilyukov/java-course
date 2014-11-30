@@ -58,8 +58,8 @@
       <file leaf-file-name="SwitchConstruction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/basics/java/SwitchConstruction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3068592" vertical-offset="0" max-vertical-offset="799">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33754513" vertical-offset="0" max-vertical-offset="799">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -229,6 +229,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.SwitchConstruction">
     <configuration default="false" name="LogicalOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -485,6 +486,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6e3c2bd6-ba52-4ed0-a4b1-29a7280574d4" name="Default" comment="" />
@@ -714,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basics/java/SwitchConstruction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3068592" vertical-offset="0" max-vertical-offset="799">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33754513" vertical-offset="0" max-vertical-offset="799">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
