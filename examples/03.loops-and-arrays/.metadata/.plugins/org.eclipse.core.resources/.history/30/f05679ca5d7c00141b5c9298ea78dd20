@@ -1,0 +1,20 @@
+
+public class Break {
+	public static void main(String[] args) {
+		
+		//Алгоритъм за намиране на най-малко общо частно
+		$number = 3;
+		$divider = 5;
+		$curent_number = 1;
+		
+		do{
+			$result = $number * $curent_number++;
+			if($result % $divider == 0){
+				echo "Най-малкото общо (НОК) частно на $number и $divider е $result";
+				break;
+			}
+		
+		}while(1);
+
+	}
+}
