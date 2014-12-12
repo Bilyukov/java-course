@@ -1,0 +1,16 @@
+
+public class MultidimetionalArrays {
+
+	public static void main(String[] args) {
+		
+		int[][] multiArray = new int[4][5];
+		
+		for (int i = 0; i < multiArray.length; i++) {
+			
+		}
+		
+		
+
+	}
+
+}

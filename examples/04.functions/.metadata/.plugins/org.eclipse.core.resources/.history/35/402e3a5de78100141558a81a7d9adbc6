@@ -1,0 +1,17 @@
+
+public class FunctionsBasic {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public void SayHello(){
+		System.out.println("Hello");
+	}
+	
+	public void SayGoodBye(){
+		System.out.println("Hello");
+	}
+
+}

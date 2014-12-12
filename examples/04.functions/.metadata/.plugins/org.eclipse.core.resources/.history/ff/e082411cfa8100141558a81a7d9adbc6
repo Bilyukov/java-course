@@ -1,0 +1,13 @@
+
+public class ReturnValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static float calculateRectangleArea(float width, float height){
+		
+	}
+
+}

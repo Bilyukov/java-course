@@ -1,0 +1,35 @@
+import java.util.Random;
+
+
+public class MultidimetionalArrays {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int[][] multiArray = new int[4][5];
+		
+		Random rand = new Random();
+		
+		for (int i = 0; i < multiArray.length; i++) {
+			for (int j = 0; j < multiArray[i].length; j++) {
+				multiArray[i][j] = rand.nextInt(10);
+			}
+		}
+		
+		
+		for (int i = 0; i < multiArray.length; i++) {
+			for (int j = 0; j < multiArray[i].length; j++) {
+				System.out.printf("%d ", multiArray[i][j]);
+			}
+			System.out.println();
+		}
+		
+		
+		int[][] foo = new int[][] {
+		        new int[] { 1, 2, 3 },
+		        new int[] { 1, 2, 3, 4},
+		    };
+	}
+
+}
