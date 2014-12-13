@@ -1,0 +1,11 @@
+
+public class AccessModifiers {
+
+	public static void main(String[] args) {
+		Cat josefine = new Cat("Josefine", "Persian", 2);
+		
+		josefine.sayMiau(true);
+
+	}
+
+}

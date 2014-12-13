@@ -1,0 +1,58 @@
+
+public class Cat {
+
+	private String name;
+	private String breed;
+	private int age;
+	
+	public Cat(){
+		this.name = "";
+		this.breed = "";
+		this.age = 0;
+	}
+	
+	public Cat(String name, String breed, int age){
+		this();
+		
+		setName(name);
+		setBreed(breed);
+		setAge(age);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		if(name != null){
+			this.name = name;
+		}
+	}
+
+	public String getBreed() {
+		return breed;
+	}
+
+	public void setBreed(String breed) {
+		if(breed != null){
+			this.breed = breed;
+		}
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		if(age >= 0){
+			this.age = age;
+		}
+	}
+	
+	private void sayMiau(boolean identify){
+		
+	}
+	
+	
+	
+}

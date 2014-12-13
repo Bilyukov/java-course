@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Person"/>
+<fullyQualifiedTypeName name="Cat"/>
+<fullyQualifiedTypeName name="Car"/>
 </qualifiedTypeNameHistroy>
