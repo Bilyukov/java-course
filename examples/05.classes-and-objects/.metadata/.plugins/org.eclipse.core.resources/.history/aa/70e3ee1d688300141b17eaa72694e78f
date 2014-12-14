@@ -1,0 +1,10 @@
+
+public class Animal extends Creature {
+
+
+	public void greed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

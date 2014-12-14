@@ -1,0 +1,12 @@
+
+public class Cat extends Pet{
+	
+	private String breed;
+	
+	public Cat(){
+		super();
+		super.get
+		this.breed = "";
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Human extends Creature {
+
+	private String name
+	
+	
+	public void greed() {
+		
+		
+	}
+
+}

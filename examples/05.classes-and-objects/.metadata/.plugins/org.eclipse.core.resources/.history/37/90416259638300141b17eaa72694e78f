@@ -1,0 +1,12 @@
+
+public class Pet {
+	
+	protected String name;
+	protected int years;
+	
+	public Pet(String name, int years){
+		
+	}
+	
+
+}

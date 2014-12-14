@@ -1,0 +1,16 @@
+
+public class Animal extends Creature {
+
+	private float height;
+	
+	public Animal(int age, float height){
+		super.age = age;
+		
+	}
+
+	public void greed() {
+		
+		
+	}
+
+}

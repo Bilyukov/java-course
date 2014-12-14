@@ -1,0 +1,25 @@
+
+public class Rectangle extends Shape {
+	
+	private float width;
+	private float height;
+	
+	
+	
+	public Rectangle(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	
+	
+	
+	@Override
+	public float calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

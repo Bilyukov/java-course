@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Creature.greed()&apos; to &apos;greet&apos;&#x0D;&#x0A;- Original project: &apos;AbstractClasses&apos;&#x0D;&#x0A;- Original element: &apos;Creature.greed()&apos;&#x0D;&#x0A;- Renamed element: &apos;Creature.greet()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;greed&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Creature.java[Creature~greed" name="greet" references="true" stamp="1418544769961" version="1.0"/>
+</session>

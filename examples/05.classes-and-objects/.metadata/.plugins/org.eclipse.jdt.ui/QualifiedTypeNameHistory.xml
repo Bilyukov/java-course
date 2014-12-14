@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Person"/>
-<fullyQualifiedTypeName name="Cat"/>
 <fullyQualifiedTypeName name="Car"/>
+<fullyQualifiedTypeName name="TimeSpan"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Pet"/>
+<fullyQualifiedTypeName name="Cat"/>
+<fullyQualifiedTypeName name="Creature"/>
+<fullyQualifiedTypeName name="Human"/>
+<fullyQualifiedTypeName name="Animal"/>
+<fullyQualifiedTypeName name="Shape"/>
+<fullyQualifiedTypeName name="Square"/>
+<fullyQualifiedTypeName name="Rectangle"/>
 </qualifiedTypeNameHistroy>

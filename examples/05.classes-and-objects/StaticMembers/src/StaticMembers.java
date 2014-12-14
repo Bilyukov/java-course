@@ -17,10 +17,6 @@ public class StaticMembers {
 		
 		System.out.printf("Cars count: %d", Car.carsCount);
 		System.out.println();
-		
-		
-		
-
 	}
 
 }
