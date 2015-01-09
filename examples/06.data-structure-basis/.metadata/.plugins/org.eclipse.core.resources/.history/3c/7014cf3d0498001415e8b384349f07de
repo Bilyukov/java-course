@@ -1,0 +1,17 @@
+import java.util.HashSet;
+
+
+public class SetsHashCode {
+	
+	public static void main(String[] args) {
+		
+		Employee pesho = new Employee("Петър", "Гаврилов");
+		
+		Employee gosho = new Employee("Георги", "Арнаудов");
+		
+		Employee ivan = new Employee("Иван", "Крачунов");
+		
+		HashSet<Employee> employees = new HashSet<Employee>();
+
+	}
+}

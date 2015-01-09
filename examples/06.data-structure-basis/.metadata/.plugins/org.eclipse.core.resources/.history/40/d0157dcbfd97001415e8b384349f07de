@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Lists {
+
+	public static void main(String[] args) {
+		ArrayList<String> people = new ArrayList<String>() {{
+			add("Иван");
+			add("Катерина");
+			add("Атанас");
+			add("Тодор");			
+		}};
+		
+		
+		
+		
+		people.add("Георги"); 
+		people.remove(0);
+		people.remove(1);
+		people.remove("Todor");
+		people.addAll(Arrays.asList("Alice", "Tedy")); 
+		people.add(3, "Sylvia"); 
+		people.set(2, "Mike");
+		System.out.println(people);
+
+		for (String name : people)
+		{
+		    System.out.println(name);
+		}
+		
+		
+		 This will not compile!
+		ArrayList<int> intArr = new ArrayList<int>();
+		
+		
+		ArrayList<Integer> nums = new ArrayList<>(
+				Arrays.asList(5, -3, 10, 25));
+		nums.add(55); // 5, -3, 10, 25, 55
+		System.out.println(nums.get(0)); // 5
+		System.out.println(nums); // [5, -3, 10, 25, 55]
+		nums.remove(2); // 5, -3, 25, 55
+		nums.set(0, 101); // 101, -3, 25, 55
+		System.out.println(nums); // [101, -3, 25, 55]
+
+		//System.out.println(nums[2]); // The indexer [] does not work
+		//nums[2] = 5; // The indexer [] does not work
+		
+		nums.add(5); // 5, -3, 10, 25, 55, 5
+		nums.add(15); // 5, -3, 10, 25, 55, 5, 15
+
+		// Streaming API example with functional-style processing
+		nums.stream()
+			.filter(x -> x % 5 == 0)
+			.sorted()
+			.forEach(x -> System.out.println(x));
+
+	}
+
+}

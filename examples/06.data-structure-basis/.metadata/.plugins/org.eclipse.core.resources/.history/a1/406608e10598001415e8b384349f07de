@@ -1,0 +1,40 @@
+
+public class Employee {
+	
+	private String first;
+	private String last;
+	
+	public Employee(String first, String last) {
+		super();
+		this.first = first;
+		this.last = last;
+	}
+	
+	public String getFirst() {
+		return first;
+	}
+	public void setFirst(String first) {
+		this.first = first;
+	}
+	public String getLast() {
+		return last;
+	}
+	public void setLast(String last) {
+		this.last = last;
+	}
+	
+	 @Override
+	 public int hashCode() {
+		 
+//		 return 1;
+//		 return (this.first + this.last).hashCode();
+     }
+	 
+	 public boolean equals(Object o){
+	    if(o == null)                return false;
+	    if(!(o instanceof Employee)) return false;
+
+	    Employee other = (Employee) o;
+	    return this.hashCode() == other.hashCode();
+	  }
+}
