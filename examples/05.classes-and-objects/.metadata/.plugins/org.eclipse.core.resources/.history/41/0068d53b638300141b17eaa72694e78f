@@ -1,6 +1,0 @@
-
-public class Pet {
-	
-	public String name;
-
-}
