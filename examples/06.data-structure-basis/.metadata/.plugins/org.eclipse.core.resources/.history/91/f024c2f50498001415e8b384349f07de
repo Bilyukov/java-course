@@ -1,0 +1,27 @@
+import java.util.HashSet;
+
+
+public class SetsHashCode {
+	
+	public static void main(String[] args) {
+		
+		Employee pesho = new Employee("Петър", "Гаврилов");
+		
+		Employee gosho = new Employee("Георги", "Арнаудов");
+		
+		Employee ivan = new Employee("Иван", "Крачунов");
+		
+		HashSet<Employee> employees = new HashSet<Employee>();
+		
+		employees.add(pesho);
+//		employees.add(gosho);
+//		employees.add(ivan);
+		
+		System.out.println(employees);
+		
+		employees.remove(pesho);
+		
+		System.out.println(employees.contains(o));
+
+	}
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+
+public class ArraysSorting {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Въведете размер на масива");
+		
+		Scanner scan = new Scanner(System.in);
+		int count = scan.nextInt();
+		scan.nextLine();
+		
+		
+		String[] words = new String[count];
+		for (int i = 0; i < count; i++) {
+			
+			
+			
+			words[i] = scan.nextLine();
+		}
+		
+		// Sort the array of strings
+		Arrays.sort(words);
+		
+		for (int i = 0; i < words.length; i++) {
+			System.out.println(words[i]);
+		}
+
+	}
+
+}
