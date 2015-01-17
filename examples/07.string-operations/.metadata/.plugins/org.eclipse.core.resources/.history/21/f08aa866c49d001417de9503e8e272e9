@@ -1,0 +1,15 @@
+
+public class StringEquals {
+
+	public static void main(String[] args) {
+		
+		String first = "Аз Програмирам на Java";
+		
+		String second = "Аз Програмирам на Java";
+		
+		boolean refComparison = first == second;
+		
+		
+
+	}
+}

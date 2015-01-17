@@ -1,0 +1,18 @@
+
+public class StringSplit {
+	
+	
+	public static void main(String[] args) {
+		String expression = "Това е едно много много дълго изречение, което ще пробваме да разделим по думи!";
+		
+		String firstPart = expression.substring(0, 6);
+		System.out.println(firstPart);
+		
+		String seondPart = expression.substring(8);
+		System.out.println(seondPart);
+		
+		
+
+	}
+
+}

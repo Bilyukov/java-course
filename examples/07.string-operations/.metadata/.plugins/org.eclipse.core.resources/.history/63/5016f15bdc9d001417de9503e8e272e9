@@ -1,0 +1,9 @@
+
+public class MoreStringMethods {
+
+	public static void main(String[] args) {
+		String hobby = "My hobby is swimming";
+
+	}
+
+}

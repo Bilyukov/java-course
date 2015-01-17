@@ -1,0 +1,12 @@
+
+public class StringSubstring {
+
+	public static void main(String[] args) {
+		String expression = "Strings are powerful";
+		
+		String subString = expression.substring(8);
+		System.out.println(subString);
+
+	}
+
+}

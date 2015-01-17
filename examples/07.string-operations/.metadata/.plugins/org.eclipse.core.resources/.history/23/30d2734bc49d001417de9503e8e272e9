@@ -1,0 +1,11 @@
+
+public class StringEquals {
+
+	public static void main(String[] args) {
+		
+		String first = "Аз Програмирам на Java";
+		
+		
+
+	}
+}

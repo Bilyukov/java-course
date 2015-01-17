@@ -1,0 +1,16 @@
+
+public class StringConcatenationi {
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder();
+        
+		sb.append("Обичам конкатенацията на стрингове");
+		sb.append(" to");
+		sb.append(" you");
+		      
+		System.out.println(sb.toString());
+		
+		
+
+	}
+}

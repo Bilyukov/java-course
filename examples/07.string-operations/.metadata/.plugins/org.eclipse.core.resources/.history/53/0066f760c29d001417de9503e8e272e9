@@ -1,0 +1,12 @@
+
+public class MethodToString {
+
+	public static void main(String[] args) {
+		Person gerogi = new Person("Георги", "Билюков");
+		
+		String greeting = "Аз съм " + gerogi;
+		System.out.format(arg0, arg1)
+
+	}
+
+}
