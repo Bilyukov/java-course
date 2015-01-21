@@ -1,0 +1,14 @@
+
+public class CatchingExeptions {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

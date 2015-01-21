@@ -1,0 +1,19 @@
+package polymorphism;
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		
+		Cucumber firstCucomber = new Cucumber(7);
+		Cucumber secondCucomber = new Cucumber(3);
+		Cucumber thirdCucomber = new Cucumber(5);
+		
+		Tomato firstTomato = new Tomato(50);
+		Tomato secondTomato = new Tomato(50);
+		Tomato thirdTomato = new Tomato(50);
+		
+		
+		
+	}
+
+}

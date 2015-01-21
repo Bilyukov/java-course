@@ -1,0 +1,11 @@
+
+public abstract class ChessPiece {
+	
+	protected return_type name() {
+		
+	} String position;
+	
+	public String getPosition() {
+		return position;
+	}
+}

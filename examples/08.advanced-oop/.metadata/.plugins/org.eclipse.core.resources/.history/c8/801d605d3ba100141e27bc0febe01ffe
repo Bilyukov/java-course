@@ -1,0 +1,17 @@
+import Interfaces.Hourse;
+
+
+public class ExceptionBasic {
+	
+	public static void main(String[] args) {
+		try {
+			
+		} catch (Exception e) {
+			e.getMessage()
+			System.out.println("Прихванато изключение: " + е);
+		} finally {
+			
+		}
+	}
+	
+}	

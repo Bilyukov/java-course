@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class Tomato extends Vegetable implements Growable  {
+
+	private int weight;
+	
+	public public Tomato(String weight) {
+		this.weight = 
+	}
+	
+	@Override
+	public void Grow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

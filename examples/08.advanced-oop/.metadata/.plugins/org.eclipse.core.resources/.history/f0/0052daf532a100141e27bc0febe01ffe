@@ -1,0 +1,9 @@
+
+public abstract class ChessPiece {
+	
+	private String position;
+	
+	public String getPosition() {
+		return position;
+	}
+}

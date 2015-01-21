@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ChessPiece"/>
+<fullyQualifiedTypeName name="Movalble"/>
+<fullyQualifiedTypeName name="Printable"/>
+<fullyQualifiedTypeName name="Hourse"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="polymorphism.Cucumber"/>
+<fullyQualifiedTypeName name="polymorphism.Tomato"/>
+<fullyQualifiedTypeName name="polymorphism.Vegetable"/>
+<fullyQualifiedTypeName name="polymorphism.Growable"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.Fidelity"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

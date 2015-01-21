@@ -1,0 +1,25 @@
+package polymorphism;
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		
+		Cucumber firstCucomber = new Cucumber(7);
+		Cucumber secondCucomber = new Cucumber(3);
+		Cucumber thirdCucomber = new Cucumber(5);
+		
+		Tomato firstTomato = new Tomato(50);
+		Tomato secondTomato = new Tomato(70);
+		Tomato thirdTomato = new Tomato(120);
+		
+		Vegetable[] vegetables = new Vegetable[6];
+		Growable[] growable = new Growable[6];
+		
+		vegetables[0] = firstCucomber;
+		vegetables[1] = firstTomato;
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package polymorphism;
+
+public class Cucumber extends Vegetable implements Growable  {
+
+	private int size;
+	
+	public Cucumber(int size) {
+		this.size = size;
+		this.name = "Cucumber";
+		this.color = "Green";
+	}
+	
+	@Override
+	public void Grow() {
+		this.size += 20;
+	}
+	
+	@Override
+	public String toString() {
+		String vegiString = super.toString();
+		return vegiString + " Weight: " + this.weight;
+	}
+
+}

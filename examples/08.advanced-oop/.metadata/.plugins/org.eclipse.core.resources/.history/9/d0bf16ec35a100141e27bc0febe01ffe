@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class Tomato extends Vegetable implements Growable  {
+
+	private int weight;
+	
+	public Tomato(int weight) {
+		this.weight = weight;
+		this.name = "Tomato";
+	}
+	
+	@Override
+	public void Grow() {
+		this.weight += 10;
+		
+	}
+	
+	@
+
+}

@@ -1,0 +1,21 @@
+
+public class Hourse extends ChessPiece implements Movalble, Printable {
+
+	
+	public Hourse(String positon){
+		
+		this.position = positon;
+	}
+	
+	@Override
+	public void print() {
+		System.out.println();
+	}
+
+	@Override
+	public void Move(String position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

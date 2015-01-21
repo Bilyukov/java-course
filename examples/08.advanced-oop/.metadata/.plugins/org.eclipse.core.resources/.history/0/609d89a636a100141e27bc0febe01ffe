@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		
+		Cucumber firstCucomber = new Cucumber("7")
+		
+		
+	}
+
+}
