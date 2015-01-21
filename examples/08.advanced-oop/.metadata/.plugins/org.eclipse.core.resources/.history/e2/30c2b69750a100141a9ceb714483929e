@@ -1,0 +1,18 @@
+package CustomExceptions;
+
+import java.math.BigDecimal;
+
+public class CustomExceptions {
+
+	public static void main(String[] args) {
+		BankAccount myAccount = new BankAccount("Иван Георгиев", new BigDecimal(100));
+		
+		try {
+			myAccount.withdraw(200);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

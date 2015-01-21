@@ -1,0 +1,15 @@
+package CustomExceptions;
+
+public class WithdrawException extends Exception {
+
+	private static final long serialVersionUID = -8005225588855145347L;
+
+	public WithdrawException(){
+		super();
+	}
+	
+	 public WithdrawException(String message, Throwable throwable) {
+        super(message, throwable);
+     }
+	
+}

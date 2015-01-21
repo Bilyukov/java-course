@@ -1,0 +1,14 @@
+
+public class Parsing {
+
+	public static void main(String[] args) {
+		
+		String numberVar = "33";
+		
+		String floatVar = "22.55";
+		
+		String booleanVar = "true";
+
+	}
+
+}

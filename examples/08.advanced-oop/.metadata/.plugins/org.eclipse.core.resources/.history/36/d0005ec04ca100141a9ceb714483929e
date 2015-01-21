@@ -1,0 +1,15 @@
+
+public class ThrowingException {
+
+	public static void main(String[] args) {
+		Person person = new Person(12);
+		
+		try {
+			
+		} catch (Ex) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Parsing {
+
+	public static void main(String[] args) {
+		
+		String numberVar = "33";
+		
+		String doubleVar = "22.55";
+		
+		String booleanVar = "true";
+		
+		
+		
+
+	}
+
+}
