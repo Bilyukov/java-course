@@ -4,4 +4,8 @@
 <fullyQualifiedTypeName name="Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.awt.font.NumericShaper"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="MergeSort"/>
+<fullyQualifiedTypeName name="StackUsage"/>
 </qualifiedTypeNameHistroy>
