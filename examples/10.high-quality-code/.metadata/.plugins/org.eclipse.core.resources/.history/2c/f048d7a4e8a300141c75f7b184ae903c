@@ -1,0 +1,16 @@
+public class FunctionsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static int calculateFactorial(int number) {
+		int result = 1;
+		for (int i = 1; i <= n; i++) {
+			fact *= i;
+		}
+		return fact;
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class CodeFormating {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static float CalculateAverate(int[] numbers){int sum = 0;for (int i = 0;										 i < numbers.length;
+			i++) {
+			sum																 +=
+numbers[i];}float 
+result =
+
+(float)
+
+sum/numbers.length;
+		return result;	}
+
+}

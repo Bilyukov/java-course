@@ -1,0 +1,13 @@
+
+public class CodeFormating {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int CalculateAverate(int[] numbers){
+		int sum = 0;
+	}
+
+}
