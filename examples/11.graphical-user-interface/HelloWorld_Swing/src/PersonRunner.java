@@ -1,0 +1,74 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JOptionPane;
+
+import java.awt.Font;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+
+public class PersonRunner {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					PersonRunner window = new PersonRunner();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public PersonRunner() {
+		initialize();
+	}
+	
+	public void showPersonWindow(){
+		PersonWindow person = new PersonWindow();
+		person.setVisible(true);
+		
+		person.okButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				Person currentPerson = person.getPerson();
+				person.setVisible(false);
+				
+				JOptionPane.showMessageDialog(null, "Име: " + currentPerson.getFirstName());
+				
+			}
+		});
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnAddPerson = new JButton("Add Person");
+		btnAddPerson.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				showPersonWindow();
+			}
+		});
+		btnAddPerson.setFont(new Font("Tahoma", Font.BOLD, 33));
+		btnAddPerson.setBounds(82, 122, 288, 109);
+		frame.getContentPane().add(btnAddPerson);
+	}
+
+}

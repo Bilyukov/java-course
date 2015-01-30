@@ -1,0 +1,49 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextPane;
+import java.awt.BorderLayout;
+
+
+public class HelloWorldWinwos {
+
+	private JFrame frmMyFirstWindow;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					HelloWorldWinwos window = new HelloWorldWinwos();
+					window.frmMyFirstWindow.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public HelloWorldWinwos() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frmMyFirstWindow = new JFrame();
+		frmMyFirstWindow.setTitle("My First Window");
+		frmMyFirstWindow.setBounds(100, 100, 450, 300);
+		frmMyFirstWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JTextPane txtpnHelloSwing = new JTextPane();
+		txtpnHelloSwing.setText("Hello Swing");
+		frmMyFirstWindow.getContentPane().add(txtpnHelloSwing, BorderLayout.CENTER);
+	}
+
+}
