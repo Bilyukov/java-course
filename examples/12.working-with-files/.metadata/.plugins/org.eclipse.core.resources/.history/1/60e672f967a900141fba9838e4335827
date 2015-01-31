@@ -1,0 +1,23 @@
+import java.util.Random;
+
+
+public class WritingFIles {
+	
+	
+	public static void main(String[] args) {
+		
+		String filePath = "../output/randomNumbers.txt";
+		
+		Random rand = new Random();
+		
+		try {
+			
+		} catch (Exception e) {
+			System.out.println("Възникна грешка при записа на файла");
+			System.out.println(e.getMessage());
+		}
+
+	}
+	
+	
+}

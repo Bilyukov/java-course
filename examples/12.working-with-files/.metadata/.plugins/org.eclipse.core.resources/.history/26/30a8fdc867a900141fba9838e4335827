@@ -1,0 +1,21 @@
+import java.util.Random;
+
+
+public class WritingFIles {
+	
+	
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		
+		try {
+			
+		} catch (Exception e) {
+			System.out.println("Възникна грешка при четенето на файла");
+			System.out.println(e.getMessage());
+		}
+
+	}
+	
+	
+}

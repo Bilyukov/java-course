@@ -1,0 +1,22 @@
+
+public class RedingLineByLine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void readFile(String path){
+		try {
+			BufferedReader in = new BufferedReader(new FileReader(file));
+
+			while (in.ready()) {
+			  String s = in.readLine();
+			}
+			in.close();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

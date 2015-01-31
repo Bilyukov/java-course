@@ -1,0 +1,13 @@
+
+public class ReadingAllLines {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void readAllLines(String pat){
+		List<String> lines = Files.readAllLines(Paths.get(fileName));
+	}
+
+}

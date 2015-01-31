@@ -1,0 +1,9 @@
+
+public class WritingFIles {
+	
+	
+	public static void main(String[] args) {
+		readFile("../files/java.txt");
+
+	}
+}

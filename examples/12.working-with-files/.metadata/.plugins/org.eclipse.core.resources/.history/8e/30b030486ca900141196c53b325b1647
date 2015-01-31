@@ -1,0 +1,63 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JButton;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Font;
+
+
+public class FIleDialogs {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FIleDialogs window = new FIleDialogs();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+	
+	public void chooseFile(){
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.showDialog(null, "Избери");
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public FIleDialogs() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton browseButton = new JButton("\u0418\u0437\u0431\u0435\u0440\u0438");
+		browseButton.setFont(new Font("Tahoma", Font.PLAIN, 26));
+		browseButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				chooseFile();
+			}
+		});
+		browseButton.setBounds(10, 11, 414, 108);
+		frame.getContentPane().add(browseButton);
+	}
+}
